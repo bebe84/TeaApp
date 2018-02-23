@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "teaapp",
-    "description": "This project is really great.",
+    "description": "Implementation of XTea API from XSolve (Team Mobile).",
     "slug": "teaapp",
     "privacy": "public",
     "sdkVersion": "25.0.0",
@@ -15,7 +15,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     }
   }
 }

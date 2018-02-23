@@ -4,4 +4,4 @@ What was used:
 
  - RN with Expo.
  - Redux for state managing.
- - Image caching library [a link](https://github.com/wcandillon/react-native-expo-image-cache)
+ - [React Native Expo Image Cache](https://github.com/wcandillon/react-native-expo-image-cache)

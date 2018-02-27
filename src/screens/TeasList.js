@@ -14,7 +14,9 @@ class TeasList extends Component {
   }
 
   componentWillMount() {
-    this.props.fetchTeas();
+    if (this.props.teas.length === 0) {
+      this.props.fetchTeas();
+    }
   }
 
   render() {
@@ -24,6 +26,7 @@ class TeasList extends Component {
         style={{ paddingTop: 25 }}
         data={this.props.teas}
         keyExtractor={item => item.id}
+        initialNumToRender={4}
         renderItem={({ item }) =>
           (<TeasListItem
             key={item.id}
